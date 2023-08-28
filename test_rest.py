@@ -9,7 +9,7 @@ from Ffile import *
 #pytest -v -s --alluredir=./reports --capture sys
 #allure serve ./reports
 
-
+#NEWW
 def test_TC1_booking():
     response=requests.get("https://restful-booker.herokuapp.com/booking/4")
     print(response.text)
