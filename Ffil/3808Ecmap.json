@@ -1,0 +1,36 @@
+{
+	"id": 0,
+	"inPorts": [
+		"Ex0\/11"
+	],
+	"outPorts": [
+	],
+	"laPorts": [
+		401
+	],
+	"vTrunkId": 0,
+	"priority": 1,
+	"name": "New Configuration Map",
+	"desc": "Enter description here.",
+	"iconId": "\/images\/configmap.png",
+	"status": "enable",
+	"filters": [
+		{
+			"id": 0,
+			"filterName": "",
+			"filterDescription": "",
+			"filterAction": "Pass all",
+			"filterType": "filterIp",
+			"isDefaultFilter": true
+		}
+	],
+	"ingressPortGroup": [
+	],
+	"filterMode": "Pass all",
+	"egressPortsDownAction": "none",
+	"advancedAction": "None",
+	"inputPortHierarchicalPrivilege": "enable",
+	"outputPortHierarchicalPrivilege": "enable",
+	"scheduleCmap": {
+	}
+}

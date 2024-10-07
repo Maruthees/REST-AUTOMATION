@@ -1,0 +1,21 @@
+{
+"id": 1,
+"scheduleCmap": {
+"status": "enable",
+"configMapStatus": "disable",
+"period": "daily",
+"startTime": "17:35",
+"endTime": "17:36"
+}
+	}
+
+{
+"id": 2,
+"scheduleCmap": {
+"status": "enable",
+"configMapStatus": "disable",
+"period": "daily",
+"startTime": "17:35",
+"endTime": "17:36"
+}
+	}

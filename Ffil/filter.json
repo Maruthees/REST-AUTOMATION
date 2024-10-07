@@ -1,0 +1,41 @@
+{
+	"id": 0,
+	"inPorts": [
+		"Ex0\/34"
+	],
+	"outPorts": [
+		"Ex0\/30"
+	],
+	"laPorts": [
+	],
+	"vTrunkId": 0,
+	"priority": 1,
+	"name": "New Configuration Map",
+	"desc": "Enter description here.",
+	"iconId": "\/images\/configmap.png",
+	"status": "enable",
+	"ingrFilter": null,
+	"filterAggregateBandwidth": "none",
+	"virtualPktInPorts": [
+	],
+	"virtualPktOutPorts": [
+	],
+	"egressPortsDownAction": "none",
+	"filters": [
+		{
+			"filterDescription": "Enter Description here.",
+			"filterType": "L2-IPv4-L4",
+			"filterMode": "ingress",
+			"filterAction": "Pass by criteria",
+			"ipProtocol": "ANY",
+			"l4SourcePort": 3267,
+			"l4DestinationPort": 443,
+			"ipType": "ipv4",
+			"sourceIpv4Address": "23.23.23.23",
+			"sourceIpv4Mask": "255.255.255.255",
+			"destinationIpv4Address": "33.33.33.33",
+			"destinationIpv4Mask": "255.255.255.255",
+			"privilege": 3
+		}
+	]
+}

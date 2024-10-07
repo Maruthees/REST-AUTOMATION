@@ -1,0 +1,36 @@
+{
+	"id": 0,
+	"inPorts": [
+		"Ex0\/34"
+	],
+	"outPorts": [
+	],
+	"laPorts": [
+		401
+	],
+	"vTrunkId": 0,
+	"priority": 1,
+	"name": "New Configuration Map",
+	"desc": "Enter description here.",
+	"iconId": "\/images\/configmap.png",
+	"status": "enable",
+	"ingrFilter": null,
+	"filterAggregateBandwidth": "none",
+	"virtualPktInPorts": [
+	],
+	"virtualPktOutPorts": [
+	],
+	"egressPortsDownAction": "none",
+	"filters": [
+		{
+			"filterAction": "Pass all",
+			"filterMode": "ingress"
+		}
+	],
+	"packetronProfiles": [
+	],
+	"pktronProfileNumber": 0,
+	"pktProfiledelConfirm": 0,
+	"mitmTrafficDirection": "client_to_server",
+	"packetronDownAction": "bypass"
+}

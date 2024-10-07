@@ -1,0 +1,55 @@
+{
+	"id": 0,
+	"inPorts": [
+		"Ex0\/3"
+	],
+	"outPorts": [
+	],
+	"laPorts": [
+		401
+	],
+	"vTrunkId": 0,
+	"priority": 1,
+	"name": "New Configuration Map",
+	"desc": "Enter description here.",
+	"iconId": "\/images\/configmap.png",
+	"status": "enable",
+	"ingrFilter": {
+		"id": 0,
+		"filterType": "filterIp",
+		"filterMode": 1,
+		"priority": 1,
+		"name": "filter",
+		"desc": "Pass all filter",
+		"actionId": "",
+		"subaction": 0,
+		"pktronvlanaction": 1,
+		"status": 1,
+		"filterDir": 1,
+		"ext": [
+			{
+				"id": 0,
+				"filterType": "filterIp",
+				"cVlanId": 0,
+				"cVlanPriority": "NA",
+				"srcIpAddr": "0.0.0.0",
+				"srcIpAddrEnd": "0.0.0.0",
+				"dstIpAddr": "0.0.0.0",
+				"dstIpAddrEnd": "0.0.0.0",
+				"srcIpMask": "0.0.0.0",
+				"dstIpMask": "0.0.0.0",
+				"protoType": 258,
+				"dscp": -1,
+				"tos": 8,
+				"srcMinPort": 0,
+				"srcMaxPort": 65535,
+				"dstMinPort": 0,
+				"dstMaxPort": 65535,
+				"tcpControl": 0
+			}
+		]
+	},
+	"egressPortsDownAction": "none",
+	"inputPortHierarchicalPrivilege": "enable",
+	"outputPortHierarchicalPrivilege": "enable"
+}
