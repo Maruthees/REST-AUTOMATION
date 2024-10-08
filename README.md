@@ -1,0 +1,1 @@
+Using Pytest I was able to automate migration scenarios which couldn't be automated by Regular automation team . The script test_rest.py has migration from old firmware to latest firmware which could be executed at same time on three different platforms Broadcom device & two Marvell devices.
